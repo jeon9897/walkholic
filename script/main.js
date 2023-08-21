@@ -2,7 +2,7 @@ let mobile_keys = ['iPhone','iPad','Android','BlackBerry','Windows Phone', 'SAMS
 if(document.URL.match('move_pc_screen')) mobile_keys = null;
 for( i in mobile_keys){
 if(navigator.userAgent.match(mobile_keys[i]) != null){
-location.href = "https://jeon9897.github.io/walkholic/moblie.html";
+location.href = "https://jeon9897.github.io/walkholic/mobile.html";
   break;
   }
 } 
