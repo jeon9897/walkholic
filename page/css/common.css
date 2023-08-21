@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import url('normalize.css');
+@import url('reset.css');
+
+
+
+/* 폰트 */
+@import url("https://cdn.jsdelivr.net/gh/glocy/files@ba2ce5a7d3aec835386e4430c7667cca36c10848/SBAggro.css");
+
+/* 변수 */
+:root{
+  --main-color : #86CEE0;
+  --sub-color1 : #9DB75A;
+  --sub-color2 : #E29D70;
+}
+
+/* 공용 */
+html {font-family: 'SB Aggro'; background: url(../images/index-back.jpg);}
+a {color: #333;}
+section {padding-top : 150px;}
+
+.hidden {display : none;}
+
+.d-flex {display : flex;}
+
+.jcsa {justify-content : space-around;}
+
+.theme > h2 {
+  background: #86CEE0;
+}
+.course > h2 {
+  background: #9DB75A;
+}
+.goods > h2 {
+  background: #E29D70;
+}
+.notice > h2 {
+  background: #BF4158;
+}
+
+/* 버튼 서식 */
+.long_btn {
+  padding : 14px 40px;
+  border-radius : 20px;
+  background : var(--main-color);
+  box-sizing : border-box;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.long_btn:hover {
+  background : #5BA1B2;
+}
+.long_btn:active {
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.short_btn{
+  padding : 10px 15px;
+  border-radius: 20px;
+  background : var(--main-color);
+  box-sizing : border-box;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.short_btn:hover {
+  background : #5BA1B2;
+}
+.short_btn:active {
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+
